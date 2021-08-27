@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    *{
+        @apply p-0 m-0 box-border;
+    }
+    body{
+        @apply w-screen overflow-x-hidden;
+    }
+    .dropdown-menu{
+        transform:translateY(-50em)
+    }
+    .dropdown-menu .show{
+        transform:translateY(0em)
+    }
+}
