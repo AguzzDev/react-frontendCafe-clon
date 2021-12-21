@@ -6,7 +6,6 @@ import { Footer } from '../Footer/Footer'
 
 export const ComunidadScreen = () => {
     const dataComunidad = data.dataComunidad
-
     return (
         <>
             <Helmet>
@@ -79,11 +78,9 @@ export const ComunidadScreen = () => {
                                         <p className="text-sm mb-5 text-gray-800 font-small "><h1>{dataC.sobremi}</h1></p>
                                     </div>
                                     <div className="flex flex-row space-x-3 mr-2 mb-10">
-                                        <button className="font-small text-xs text-gray-700 py-1 pr-1 pl-1 rounded-md focus:outline-none border border-indigo-500 hover:bg-indigo-500 hover:text-white">{dataC.tecnologias.[0]}</button>
-                                        <button className="font-small text-xs text-gray-700 py-1 pr-1 pl-1 rounded-md focus:outline-none border border-indigo-500 hover:bg-indigo-500 hover:text-white">{dataC.tecnologias.[1]}</button>
-                                        <button className="font-small text-xs text-gray-700 py-1 pr-1 pl-1 rounded-md focus:outline-none border border-indigo-500 hover:bg-indigo-500 hover:text-white">{dataC.tecnologias.[2]}</button>
-                                        <button className="font-small text-xs text-gray-700 py-1 pr-1 pl-1 rounded-md focus:outline-none border border-indigo-500 hover:bg-indigo-500 hover:text-white">{dataC.tecnologias.[3]}</button>
-                                        <button className="font-small text-xs text-gray-700 py-1 pr-1 pl-1 rounded-md focus:outline-none border border-indigo-500 hover:bg-indigo-500 hover:text-white">{dataC.tecnologias.[4]}</button>
+                                        {dataC.tecnologias.map(data => (
+                                            <button className="font-small text-xs text-gray-700 py-1 pr-1 pl-1 rounded-md focus:outline-none border border-indigo-500 hover:bg-indigo-500 hover:text-white">{data}</button>
+                                        ))}
                                     </div>
                                 </div>
                             )

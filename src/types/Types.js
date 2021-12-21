@@ -1,8 +1,8 @@
 export const types = {
 
-    uiOpenModal: "[UI] Open modal",
-    uiCloseModal: "[UI] Close modal",
+  uiOpenModal: '[UI] Open modal',
+  uiCloseModal: '[UI] Close modal',
 
-    formSetError: "[Form] Set Error",
-    formRemoveError: "[Form] Remove Error",
+  formSetError: '[Form] Set Error',
+  formRemoveError: '[Form] Remove Error'
 }
