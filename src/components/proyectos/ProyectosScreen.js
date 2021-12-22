@@ -3,7 +3,6 @@ import { useDispatch, useSelector } from 'react-redux'
 import Modal from 'react-modal'
 import { Helmet } from 'react-helmet'
 
-import hearth from '../../assets/hearth.svg'
 import { uiCloseModal, uiOpenModal } from '../../actions/ui'
 import { TrabajosProyectosScreen } from './TrabajosProyectosScreen'
 import { Footer } from '../Footer/Footer'
@@ -38,7 +37,7 @@ export const ProyectosScreen = () => {
         <div className='flex flex-col mx-auto w-9/12 md:w-8/12 my-20 pl-5'>
           <div className='flex flex-row'>
             <h1 className='font-bold text-5xl text-gray-800 mr-2'>Proyectos CMYK</h1>
-            <img style={{ height: '50px' }} className='mt-1' src={hearth} />
+            <img style={{ height: '50px' }} className='mt-1' src='/assets/hearth.svg' />
           </div>
           <div className='flex flex-col lg:w-8/12 mt-5'>
             <p className='font-small text-lg'>Desde FrontendCafé impulsamos el desarrollo de proyectos colaborativos realizados por miembros de la comunidad con el objetivo de ganar experiencia en un entorno profesional. Aquí conocerás los diferentes proyectos que los equipos CMYK crearon y desarrollaron dentro la comunidad.</p>

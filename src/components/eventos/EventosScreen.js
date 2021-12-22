@@ -1,18 +1,6 @@
 import React from 'react'
 import { Helmet } from 'react-helmet'
 
-import imageneseventos1 from '../../assets/imageneseventos1.png'
-import imageneseventos2 from '../../assets/imageneseventos2.png'
-import imageneseventos3 from '../../assets/imageneseventos3.png'
-import imageneseventos4 from '../../assets/imageneseventos4.png'
-import imageneseventos5 from '../../assets/imageneseventos5.png'
-import imageneseventos6 from '../../assets/imageneseventos6.png'
-import grabacion1 from '../../assets/grabacion1.png'
-import grabacion2 from '../../assets/grabacion2.png'
-import grabacion3 from '../../assets/grabacion3.png'
-import grabacion4 from '../../assets/grabacion4.png'
-import grabacion5 from '../../assets/grabacion5.png'
-import grabacion6 from '../../assets/grabacion6.jpg'
 import { Footer } from '../Footer/Footer'
 export const EventosScreen = () => {
   return (
@@ -29,7 +17,7 @@ export const EventosScreen = () => {
           </div>
           <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-x-8 gap-y-12 lg:gap-y-20 xl:gap-y-28 mt-8'>
             <div className='rounded overflow-hidden flex flex-col md:mt:16 shadow-lg'>
-              <img style={{ width: '500px' }} src={imageneseventos1} />
+              <img style={{ width: '500px' }} src='/assets/imageneseventos1.png' />
               <div className='p-5'>
                 <h3 className='text-xs tracking-wide text-green-500'>Grupo de estudio</h3>
                 <h1 className='mb-2 mt-2 ml-1 text-xl font-medium text-gray-800 '>Dev Tools study group</h1>
@@ -39,7 +27,7 @@ export const EventosScreen = () => {
               </div>
             </div>
             <div className='rounded overflow-hidden flex flex-col md:mt:16 shadow-lg'>
-              <img style={{ width: '500px' }} src={imageneseventos2} />
+              <img style={{ width: '500px' }} src='/assets/imageneseventos2.png' />
               <div className='p-5'>
                 <h3 className='text-xs tracking-wide text-green-500'>Grupo de estudio</h3>
                 <h1 className='mb-2 mt-2 ml-1 text-xl font-medium text-gray-800 '>Coffice Hours</h1>
@@ -49,7 +37,7 @@ export const EventosScreen = () => {
               </div>
             </div>
             <div className='rounded overflow-hidden flex flex-col md:mt:16 shadow-lg'>
-              <img style={{ width: '500px' }} src={imageneseventos3} />
+              <img style={{ width: '500px' }} src='/assets/imageneseventos3.png' />
               <div className='p-5'>
                 <h3 className='text-xs tracking-wide text-green-500'>Grupo de estudio</h3>
                 <h1 className='mb-2 mt-2 ml-1 text-xl font-medium text-gray-800 '>Interview Prep study group</h1>
@@ -59,7 +47,7 @@ export const EventosScreen = () => {
               </div>
             </div>
             <div className='rounded overflow-hidden flex flex-col md:mt:16 shadow-lg'>
-              <img style={{ width: '500px' }} src={imageneseventos4} />
+              <img style={{ width: '500px' }} src='/assets/imageneseventos4.png' />
               <div className='p-5'>
                 <h3 className='text-xs tracking-wide text-green-500'>Grupo de estudio</h3>
                 <h1 className='mb-2 mt-2 ml-1 text-xl font-medium text-gray-800 '>PHP study group</h1>
@@ -69,7 +57,7 @@ export const EventosScreen = () => {
               </div>
             </div>
             <div className='rounded overflow-hidden flex flex-col md:mt:16 shadow-lg'>
-              <img style={{ width: '500px' }} src={imageneseventos5} />
+              <img style={{ width: '500px' }} src='/assets/imageneseventos5.png' />
               <div className='p-5'>
                 <h3 className='text-xs tracking-wide text-green-500'>Grupo de estudio</h3>
                 <h1 className='mb-2 mt-2 ml-1 text-xl font-medium text-gray-800 '>Py study group</h1>
@@ -79,7 +67,7 @@ export const EventosScreen = () => {
               </div>
             </div>
             <div className='rounded overflow-hidden flex flex-col md:mt:16 shadow-lg'>
-              <img style={{ width: '500px' }} src={imageneseventos6} />
+              <img style={{ width: '500px' }} src='/assets/imageneseventos6.png' />
               <div className='p-5'>
                 <h3 className='text-xs tracking-wide text-green-500'>Grupo de estudio</h3>
                 <h1 className='mb-2 mt-2 ml-1 text-xl font-medium text-gray-800 '>JS study group</h1>
@@ -94,7 +82,7 @@ export const EventosScreen = () => {
           </div>
           <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-x-8 gap-y-12 lg:gap-y-20 xl:gap-y-28 mt-8'>
             <div className='rounded overflow-hidden flex flex-col md:mt:16 shadow-lg'>
-              <img style={{ width: '500px' }} src={grabacion1} />
+              <img style={{ width: '500px' }} src='/assets/grabacion1.png' />
               <div className='p-5'>
                 <h3 className='text-xs tracking-wide text-green-500'>Encuentros</h3>
                 <h1 className='mb-2 mt-2 ml-1 text-xl font-medium text-gray-800 '>Presentación CMYK 3.0</h1>
@@ -104,7 +92,7 @@ export const EventosScreen = () => {
               </div>
             </div>
             <div className='rounded overflow-hidden flex flex-col md:mt:16 shadow-lg'>
-              <img style={{ width: '500px' }} src={grabacion2} />
+              <img style={{ width: '500px' }} src='/assets/grabacion2.png' />
               <div className='p-5'>
                 <h3 className='text-xs tracking-wide text-green-500'>Encuentros</h3>
                 <h1 className='mb-2 mt-2 ml-1 text-xl font-medium text-gray-800 '>Shit happens</h1>
@@ -114,7 +102,7 @@ export const EventosScreen = () => {
               </div>
             </div>
             <div className='rounded overflow-hidden flex flex-col md:mt:16 shadow-lg'>
-              <img style={{ width: '500px' }} src={grabacion3} />
+              <img style={{ width: '500px' }} src='/assets/grabacion3.png' />
               <div className='p-5'>
                 <h3 className='text-xs tracking-wide text-green-500'>Encuentros</h3>
                 <h1 className='mb-2 mt-2 ml-1 text-xl font-medium text-gray-800 '>IT Recruiters & Beers</h1>
@@ -124,7 +112,7 @@ export const EventosScreen = () => {
               </div>
             </div>
             <div className='rounded overflow-hidden flex flex-col md:mt:16 shadow-lg'>
-              <img style={{ width: '500px' }} src={grabacion4} />
+              <img style={{ width: '500px' }} src='/assets/grabacion4.png' />
               <div className='p-5'>
                 <h3 className='text-xs tracking-wide text-green-500'>Encuentros</h3>
                 <h1 className='mb-2 mt-2 ml-1 text-xl font-medium text-gray-800 '>Chilling with Florin Pop</h1>
@@ -134,7 +122,7 @@ export const EventosScreen = () => {
               </div>
             </div>
             <div className='rounded overflow-hidden flex flex-col md:mt:16 shadow-lg'>
-              <img style={{ width: '500px' }} src={grabacion5} />
+              <img style={{ width: '500px' }} src='/assets/grabacion5.png' />
               <div className='p-5'>
                 <h3 className='text-xs tracking-wide text-green-500'>Encuentros</h3>
                 <h1 className='mb-2 mt-2 ml-1 text-xl font-medium text-gray-800 '>After de emigrantes</h1>
@@ -144,7 +132,7 @@ export const EventosScreen = () => {
               </div>
             </div>
             <div className='rounded overflow-hidden flex flex-col md:mt:16 shadow-lg mb-28'>
-              <img style={{ width: '500px' }} src={grabacion6} />
+              <img style={{ width: '500px' }} src='/assets/grabacion6.jpg' />
               <div className='p-5'>
                 <h3 className='text-xs tracking-wide text-green-500'>Encuentros</h3>
                 <h1 className='mb-2 mt-2 ml-1 text-xl font-medium text-gray-800 '>¿Por qué y cómo diseñar la recolección de datos?</h1>

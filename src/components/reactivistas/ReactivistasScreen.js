@@ -248,7 +248,7 @@ export const ReactivistasScreen = () => {
                   <button
                     className='bg-green-500 w-3/6 rounded-lg py-2 text-white font-semibold lg:text-lg focus:outline-none'
                   >
-                                      Enviar propuesta
+                    Enviar propuesta
                   </button>
                 </div>
               </div>

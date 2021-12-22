@@ -6,11 +6,11 @@ export const DescubreInicioScreen = () => {
     <>
       <div className='hidden md:flex flex-col mb-12 items-center justify-center md:mt-28'>
 
-      <div className='flex flex-col items-center md:text-center  w-10/12 mb-20'>
+        <div className='flex flex-col items-center md:text-center  w-10/12 mb-20'>
           <h1 className='mb-8 text-green-500 font-bold text-4xl md:text-5xl'>¿Quiénes Somos?</h1>
           <h2 className='md:text-lg leading-relaxed text-gray-900 sm:w-5/6 mb-10 md:mb-0'>Somos una comunidad de personas interesadas en tecnología y ciencias informática, lenguajes de programación, diseño web, infraestructura y muchas ganas de aprender entre todos. Todo pasa dentro de nuestro servidor de Discord.</h2>
         </div>
-        
+
         <div className='flex flex-col items-center md:text-center  w-10/12'>
           <h1 className='mb-8 text-gray-800 font-bold text-4xl md:text-5xl'>¡Descubre lo que tenemos para ti!</h1>
           <h2 className='md:text-lg leading-relaxed text-gray-900 sm:w-5/6 mb-10 md:mb-0'>En FrontendCafé con la participación de la comunidad creamos diferentes actividades para mejorar nuestras habilidades tanto profesionales como comunidad.</h2>

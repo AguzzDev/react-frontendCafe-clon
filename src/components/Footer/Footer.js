@@ -1,15 +1,12 @@
 import React from 'react'
 
-import logo from '../../assets/logo-square.png'
-import vercel from '../../assets/vercel.svg'
-
 export const Footer = () => {
   return (
     <>
       <footer className='hidden sm:flex bg-black'>
         <div className='mx-auto md:w-5/6 lg:w-3/4'>
           <div className='flex flex-col p-8 md:p-16  text-white'>
-            <div className='w-2/4'><img className='h-12' style={{ borderRadius: '50%' }} src={logo} /></div>
+            <div className='w-2/4'><img className='h-12' style={{ borderRadius: '50%' }} src='/assets/logo-square.png' /></div>
             <div className='flex space-x-5 justify-between mt-5 font-medium w-full'>
               <div>
                 <h1>Unete a Discord</h1>
@@ -32,7 +29,7 @@ export const Footer = () => {
             </div>
             <div className='flex flex-row items-center mt-8 text-white'>
               <h2 className='text-sm'>© FrontendCafe2021</h2>
-              <img className='hidden sm:flex' src={vercel} alt='Powered by Vercel' />
+              <img className='hidden sm:flex' src='/assets/vercel.svg' alt='Powered by Vercel' />
             </div>
           </div>
         </div>
@@ -42,7 +39,7 @@ export const Footer = () => {
         <div className='mx-auto w-full md:w-3/4'>
           <div className='flex p-8 md:p-16 justify-between text-white flex-col md:flex-row'>
             <div>
-              <img className='h-12' style={{ borderRadius: '50%' }} src={logo} />
+              <img className='h-12' style={{ borderRadius: '50%' }} src='/assets/logo-square.png' />
               <div className='flex flex-col sm:flex-row justify-between mt-5'>
                 <div className='flex flex-col space-y-2 font-medium'>
                   <h1>Unete a Discord</h1>
@@ -64,7 +61,7 @@ export const Footer = () => {
             </div>
             <div className='flex flex-row items-center mt-8 text-white'>
               <h2 className='text-sm'>© FrontendCafe2021</h2>
-              <img className='hidden sm:flex' src={vercel} alt='Powered by Vercel' />
+              <img className='hidden sm:flex' src='/assets/vercel.svg' alt='Powered by Vercel' />
             </div>
           </div>
         </div>

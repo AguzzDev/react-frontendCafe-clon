@@ -1,5 +1,4 @@
 import React from 'react'
-import hearth from '../../assets/hearth.svg'
 
 export const EndMenssages = () => {
   return (
@@ -7,7 +6,7 @@ export const EndMenssages = () => {
       <div className='flex flex-col'>
         <div className='flex flex-row'>
           <h1 className='font-bold text-2xl md:text-3xl'>¿Estás listo para unirte?</h1>
-          <img className='ml-2' src={hearth} />
+          <img className='ml-2' src='/assets/hearth.svg' />
         </div>
         <div className='flex justify-center mt-5 mb-24'>
           <a target='_blank' className='bg-indigo-400 rounded p-2 text-white font-medium pr-5 pl-5 md:w-auto hover:bg-indigo-500' href='https://discord.com/invite/frontendcafe' rel='noreferrer'>Sumate a Discord</a>
@@ -22,7 +21,7 @@ export const EndMenssagesTwo = () => {
       <div className='flex flex-col'>
         <div className='flex flex-row'>
           <h1 className='font-bold text-2xl md:text-3xl'>El siguiente puede ser el tuyo</h1>
-          <img className='ml-2' src={hearth} />
+          <img className='ml-2' src='/assets/hearth.svg' />
         </div>
         <div className='flex justify-center mt-5 mb-24'>
           <a target='_blank' className='bg-indigo-400 rounded p-2 text-white font-medium pr-5 pl-5 md:w-auto hover:bg-indigo-500' href='https://discord.com/invite/frontendcafe' rel='noreferrer'>Sumate a Discord</a>

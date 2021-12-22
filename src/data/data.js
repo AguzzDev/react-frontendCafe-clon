@@ -870,7 +870,117 @@ const dataMentoria = [
     ]
   }
 ]
+const dataEquipo = [
+  {
+    nombre: 'Francisco Peralta',
+    imagen: '/assets/equipo/equipo1.png'
+  },
+  {
+    nombre: 'Andrés Di Croche',
+    imagen: '/assets/equipo/equipo2.png'
+  },
+  {
+    nombre: 'Agustina Marijanovic',
+    imagen: '/assets/equipo/equipo3.png'
+  },
+  {
+    nombre: 'Hernan Case',
+    imagen: '/assets/equipo/equipo4.jpg'
+  },
+  {
+    nombre: 'Manuel Obre',
+    imagen: '/assets/equipo/equipo5.jpg'
+  },
+  {
+    nombre: 'Federico Minaya',
+    imagen: '/assets/equipo/equipo6.png'
+  },
+  {
+    nombre: 'Naryie Vásquez',
+    imagen: '/assets/equipo/equipo7.png'
+  },
+  {
+    nombre: 'Amilcar Rey',
+    imagen: '/assets/equipo/equipo8.png'
+  },
+  {
+    nombre: 'Ramiro Olivencia',
+    imagen: '/assets/equipo/equipo10.png'
+  },
+  {
+    nombre: 'Martin Bavio',
+    imagen: '/assets/equipo/equipo11.png'
+  },
+  {
+    nombre: 'Anahi Gaetan',
+    imagen: '/assets/equipo/equipo12.png'
+  },
+  {
+    nombre: 'Constanza A',
+    imagen: '/assets/equipo/equipo13.png'
+  },
+  {
+    nombre: 'Sebastián Córdoba',
+    imagen: '/assets/equipo/equipo14.png'
+  },
+  {
+    nombre: 'Juan Esteban Millán',
+    imagen: '/assets/equipo/equipo15.png'
+  },
+  {
+    nombre: 'Juan Pablo Romero',
+    imagen: '/assets/equipo/equipo16.png'
+  },
+  {
+    nombre: 'Diego Brunetto',
+    imagen: '/assets/equipo/equipo17.jpg'
+  },
+  {
+    nombre: 'Ezequiel Castellanos',
+    imagen: '/assets/equipo/equipo18.png'
+  },
+  {
+    nombre: 'Verónica García',
+    imagen: '/assets/equipo/equipo19.png'
+  },
+  {
+    nombre: 'Stefania Tarditi',
+    imagen: '/assets/equipo/equipo20.png'
+  },
+  {
+    nombre: 'Julieta García',
+    imagen: '/assets/equipo/equipo21.png'
+  },
+  {
+    nombre: 'Jonathan Hacklife',
+    imagen: '/assets/equipo/equipo22.png'
+  },
+  {
+    nombre: 'Matías Serafini',
+    imagen: '/assets/equipo/equipo23.jpg'
+  },
+  {
+    nombre: 'Juan Bilardi',
+    imagen: '/assets/equipo/equipo24.png'
+  },
+  {
+    nombre: 'Gabriel La Torre',
+    imagen: '/assets/equipo/equipo25.png'
+  },
+  {
+    nombre: 'Jorge Marreno',
+    imagen: '/assets/equipo/equipo26.png'
+  },
+  {
+    nombre: 'Sebastian Gonzales',
+    imagen: '/assets/equipo/equipo27.jpg'
+  },
+  {
+    nombre: 'Giancarlo Brusca',
+    imagen: '/assets/equipo/equipo28.png'
+  }
+]
 
 export default {
-  dataComunidad, dataMentoria
+  dataComunidad, dataMentoria, dataEquipo
 }

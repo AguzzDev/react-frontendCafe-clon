@@ -2,7 +2,6 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import { Helmet } from 'react-helmet'
 
-import mentorship from '../../assets/mentorship.jpg'
 import { Footer } from '../Footer/Footer'
 import { EmpiezoMentoriaScreen } from './EmpiezoMentoriaScreen'
 
@@ -16,7 +15,7 @@ export const MentoriaScreen = () => {
 
       <div className='w-full'>
         <div className='flex flex-col lg:flex-row mx-auto w-9/12 py-32'>
-          <img style={{ height: '330px' }} src={mentorship} className='rounded' />
+          <img style={{ height: '330px' }} src='/assets/mentorship.jpg' className='rounded' />
           <div className='flex flex-col justify-center mb-10 lg:px-12'>
             <h1 className='text-4xl md:text-5xl mb-6 font-bold text-gray-800 mt-5 lg:mt-0'>Programa de mentorías </h1>
             <p className='leading-7 mt-2 text-md font-small text-gray-700 font-small'>Iniciarnos en el mundo de la tecnología puede resultar abrumador o verse como un desafío. Eso nos puede llevar a preguntarnos por dónde comenzar y qué elegir de todo lo que abarca el rubro de IT.</p>

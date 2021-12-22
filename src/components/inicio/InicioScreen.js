@@ -1,4 +1,4 @@
-import React,{useState,useCallback,useEffect} from 'react'
+import React, { useState, useCallback, useEffect } from 'react'
 import { Helmet } from 'react-helmet'
 
 import { DescubreInicioScreen } from './DescubreInicioScreen'
@@ -6,19 +6,19 @@ import { EndMenssages } from '../ui/EndMenssages'
 import { Footer } from '../Footer/Footer'
 
 export const InicioScreen = () => {
-  const [newName, setnewName] = useState("");
-  const names=["Aprendemos", "Compartimos", "Ayudamos","Creamos","Incluímos"]
+  const [newName, setnewName] = useState('')
+  const names = ['Aprendemos', 'Compartimos', 'Ayudamos', 'Creamos', 'Incluímos']
 
   const shuffle = useCallback(() => {
-      const index = Math.floor(Math.random() * names.length);
-      setnewName(names[index]);
-  }, []);
+    const index = Math.floor(Math.random() * names.length)
+    setnewName(names[index])
+  }, [])
 
   useEffect(() => {
-      const intervalID = setInterval(shuffle, 5000);
-      return () => clearInterval(intervalID);
+    const intervalID = setInterval(shuffle, 5000)
+    return () => clearInterval(intervalID)
   }, [shuffle])
-  
+
   return (
     <>
       <Helmet>
@@ -37,7 +37,7 @@ export const InicioScreen = () => {
                 <path d='M19.2582 26.3282C20.7569 26.3282 21.9773 25.1108 21.9773 23.6092C21.9773 22.1179 20.7653 20.9004 19.2666 20.9004L19.2582 20.9065C17.7595 20.9065 16.5391 22.1199 16.5391 23.6214C16.5391 25.1108 17.7595 26.3282 19.2582 26.3282Z' fill='#5C6BC0' />
               </svg>
               <div className='text-4xl font-bold'>
-                <span className='inline-block px-2 py-2 text-indigo-500 bg-indigo-100 border-2 border-dashed border-indigo-500' style={{ opacity: '1', transform: 'none' }} >{newName}</span>
+                <span className='inline-block px-2 py-2 text-indigo-500 bg-indigo-100 border-2 border-dashed border-indigo-500' style={{ opacity: '1', transform: 'none' }}>{newName}</span>
                 <span className='z-10'> en </span>
                 <div style={{ width: 'min-content' }} className='mt-2 px-2 py-2 bg-yellow-400  border-2 border-dashed border-yellow-600'>FrontendCafé</div>
               </div>

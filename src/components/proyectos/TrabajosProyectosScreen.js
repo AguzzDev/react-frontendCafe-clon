@@ -1,28 +1,12 @@
 import React from 'react'
 
-import trabajo1 from '../../assets/trabajos/trabajo1.jpg'
-import trabajo2 from '../../assets/trabajos/trabajo2.png'
-import trabajo3 from '../../assets/trabajos/trabajo3.png'
-import trabajo4 from '../../assets/trabajos/trabajo4.png'
-import trabajo5 from '../../assets/trabajos/trabajo5.png'
-import trabajo6 from '../../assets/trabajos/trabajo6.png'
-import trabajo7 from '../../assets/trabajos/trabajo7.png'
-import trabajo8 from '../../assets/trabajos/trabajo8.png'
-import trabajo9 from '../../assets/trabajos/trabajo9.png'
-import trabajo10 from '../../assets/trabajos/trabajo10.png'
-import trabajo11 from '../../assets/trabajos/trabajo11.png'
-import trabajo12 from '../../assets/trabajos/trabajo12.png'
-import trabajo13 from '../../assets/trabajos/trabajo13.png'
-import trabajo14 from '../../assets/trabajos/trabajo14.png'
-import trabajo15 from '../../assets/trabajos/trabajo15.png'
-
 export const TrabajosProyectosScreen = () => {
   return (
     <div className='w-11/12 mx-auto'>
       <div className='max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 justify-items-center gap-6 md:gap-y-20 relative'>
         <div className='max-w-md rounded overflow-hidden flex flex-col md:mt:16' style={{ backgroundColor: '#F06746' }}>
           <div className='flex flex-col w-full'>
-            <img style={{ height: '160px' }} className='object-cover' src={trabajo1} />
+            <img style={{ height: '160px' }} className='object-cover' src='/assets/trabajos/trabajo1.jpg' />
           </div>
           <div className='flex justify-between'>
             <div className='flex flex-col w-3/4'>
@@ -37,7 +21,7 @@ export const TrabajosProyectosScreen = () => {
         </div>
         <div className='max-w-md rounded overflow-hidden flex flex-col md:mb:16' style={{ backgroundColor: '#E03B88' }}>
           <div className='flex flex-col w-full'>
-            <img style={{ height: '160px' }} className='object-cover' src={trabajo2} />
+            <img style={{ height: '160px' }} className='object-cover' src='/assets/trabajos/trabajo2.png' />
           </div>
           <div className='flex justify-between'>
             <div className='flex flex-col w-3/4'>
@@ -52,7 +36,7 @@ export const TrabajosProyectosScreen = () => {
         </div>
         <div className='max-w-md rounded overflow-hidden flex flex-col md:mt:16' style={{ backgroundColor: '#06C7C0' }}>
           <div className='flex flex-col w-full'>
-            <img style={{ height: '160px' }} className='object-cover' src={trabajo3} />
+            <img style={{ height: '160px' }} className='object-cover' src='/assets/trabajos/trabajo3.png' />
           </div>
           <div className='flex justify-between'>
             <div className='flex flex-col w-3/4'>
@@ -67,7 +51,7 @@ export const TrabajosProyectosScreen = () => {
         </div>
         <div className='max-w-md rounded overflow-hidden flex flex-col md:mt:16' style={{ backgroundColor: '#39C280' }}>
           <div className='flex flex-col w-full'>
-            <img style={{ height: '160px' }} className='object-cover' src={trabajo4} />
+            <img style={{ height: '160px' }} className='object-cover' src='/assets/trabajos/trabajo4.png' />
           </div>
           <div className='flex justify-between'>
             <div className='flex flex-col w-3/4'>
@@ -82,7 +66,7 @@ export const TrabajosProyectosScreen = () => {
         </div>
         <div className='max-w-md rounded overflow-hidden flex flex-col md:mt:16' style={{ backgroundColor: '#008E75' }}>
           <div className='flex flex-col w-full'>
-            <img style={{ height: '160px' }} className='object-cover' src={trabajo5} />
+            <img style={{ height: '160px' }} className='object-cover' src='/assets/trabajos/trabajo5.png' />
           </div>
           <div className='flex justify-between'>
             <div className='flex flex-col w-3/4'>
@@ -97,7 +81,7 @@ export const TrabajosProyectosScreen = () => {
         </div>
         <div className='max-w-md rounded overflow-hidden flex flex-col md:mt:16' style={{ backgroundColor: '#FFD33C' }}>
           <div className='flex flex-col w-full'>
-            <img style={{ height: '160px' }} className='object-cover' src={trabajo6} />
+            <img style={{ height: '160px' }} className='object-cover' src='/assets/trabajos/trabajo6.png' />
           </div>
           <div className='flex justify-between'>
             <div className='flex flex-col w-3/4'>
@@ -112,7 +96,7 @@ export const TrabajosProyectosScreen = () => {
         </div>
         <div className='max-w-md rounded overflow-hidden flex flex-col md:mt:16' style={{ backgroundColor: '#F28482' }}>
           <div className='flex flex-col w-full'>
-            <img style={{ height: '160px' }} className='object-cover' src={trabajo7} />
+            <img style={{ height: '160px' }} className='object-cover' src='/assets/trabajos/trabajo7.png' />
           </div>
           <div className='flex justify-between'>
             <div className='flex flex-col w-3/4'>
@@ -127,7 +111,7 @@ export const TrabajosProyectosScreen = () => {
         </div>
         <div className='max-w-md rounded overflow-hidden flex flex-col md:mt:16' style={{ backgroundColor: '#1E62FD' }}>
           <div className='flex flex-col w-full'>
-            <img style={{ height: '160px' }} className='object-cover' src={trabajo8} />
+            <img style={{ height: '160px' }} className='object-cover' src='/assets/trabajos/trabajo8.png' />
           </div>
           <div className='flex justify-between'>
             <div className='flex flex-col w-3/4'>
@@ -142,7 +126,7 @@ export const TrabajosProyectosScreen = () => {
         </div>
         <div className='max-w-md rounded overflow-hidden flex flex-col md:mt:16' style={{ backgroundColor: '#124E78' }}>
           <div className='flex flex-col w-full'>
-            <img style={{ height: '160px' }} className='object-cover' src={trabajo9} />
+            <img style={{ height: '160px' }} className='object-cover' src='/assets/trabajos/trabajo9.png' />
           </div>
           <div className='flex justify-between'>
             <div className='flex flex-col w-3/4'>
@@ -157,7 +141,7 @@ export const TrabajosProyectosScreen = () => {
         </div>
         <div className='max-w-md rounded overflow-hidden flex flex-col md:mt:16' style={{ backgroundColor: '#DA2FD0' }}>
           <div className='flex flex-col w-full'>
-            <img style={{ height: '160px' }} className='object-cover' src={trabajo10} />
+            <img style={{ height: '160px' }} className='object-cover' src='/assets/trabajos/trabajo10.png' />
           </div>
           <div className='flex justify-between'>
             <div className='flex flex-col w-3/4'>
@@ -172,7 +156,7 @@ export const TrabajosProyectosScreen = () => {
         </div>
         <div className='max-w-md rounded overflow-hidden flex flex-col md:mt:16' style={{ backgroundColor: '#242424' }}>
           <div className='flex flex-col w-full'>
-            <img style={{ height: '160px' }} className='object-cover' src={trabajo11} />
+            <img style={{ height: '160px' }} className='object-cover' src='/assets/trabajos/trabajo11.png' />
           </div>
           <div className='flex justify-between'>
             <div className='flex flex-col w-3/4'>
@@ -187,7 +171,7 @@ export const TrabajosProyectosScreen = () => {
         </div>
         <div className='max-w-md rounded overflow-hidden flex flex-col md:mt:16' style={{ backgroundColor: '#7899D4' }}>
           <div className='flex flex-col w-full'>
-            <img style={{ height: '160px' }} className='object-cover' src={trabajo12} />
+            <img style={{ height: '160px' }} className='object-cover' src='/assets/trabajos/trabajo12.png' />
           </div>
           <div className='flex justify-between'>
             <div className='flex flex-col w-3/4'>
@@ -202,7 +186,7 @@ export const TrabajosProyectosScreen = () => {
         </div>
         <div className='max-w-md rounded overflow-hidden flex flex-col md:mt:16' style={{ backgroundColor: '#830AA0' }}>
           <div className='flex flex-col w-full'>
-            <img style={{ height: '160px' }} className='object-cover' src={trabajo13} />
+            <img style={{ height: '160px' }} className='object-cover' src='/assets/trabajos/trabajo13.png' />
           </div>
           <div className='flex justify-between'>
             <div className='flex flex-col w-3/4'>
@@ -217,7 +201,7 @@ export const TrabajosProyectosScreen = () => {
         </div>
         <div className='max-w-md rounded overflow-hidden flex flex-col md:mt:16' style={{ backgroundColor: '#5DD0A7' }}>
           <div className='flex flex-col w-full'>
-            <img style={{ height: '160px' }} className='object-cover' src={trabajo14} />
+            <img style={{ height: '160px' }} className='object-cover' src='/assets/trabajos/trabajo14.png' />
           </div>
           <div className='flex justify-between'>
             <div className='flex flex-col w-3/4'>
@@ -232,7 +216,7 @@ export const TrabajosProyectosScreen = () => {
         </div>
         <div className='max-w-md rounded overflow-hidden flex flex-col md:mt:16' style={{ backgroundColor: '#FF9143' }}>
           <div className='flex flex-col w-full'>
-            <img style={{ height: '160px' }} className='object-cover' src={trabajo15} />
+            <img style={{ height: '160px' }} className='object-cover' src='/assets/trabajos/trabajo15.png' />
           </div>
           <div className='flex justify-between'>
             <div className='flex flex-col w-3/4'>

@@ -38,7 +38,6 @@ export const Navbar = () => {
         </nav>
       </header>
 
-      
       {/* Mobile */}
       <header className='flex lg:hidden w-screen p-1 shadow-md'>
         <nav className='flex items-center justify-between w-11/12 xl:w-3/4 mx-auto'>
